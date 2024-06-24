@@ -1,0 +1,23 @@
+.container{
+    height:100px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.links{
+    display:flex;
+    gap:10px;
+    align-items: center;
+
+}
+.link{
+    color: var(--color-one);
+}
+.navbar-toggler-icon{
+    color: var(--color-one);}
+
+    .customToggler {
+       
+        background-color:  var(--color-two); /* Couleur de fond personnalisée */
+      }

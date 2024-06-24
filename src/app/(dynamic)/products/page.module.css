@@ -1,0 +1,46 @@
+
+.mainContainer{
+    display:grid;
+    grid-template-columns:repeat(3,32%);
+    gap:15px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.post{  
+    flex-grow:1;
+  
+
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        border-radius : 15px;
+    transition : all .3s ease-in-out;
+}
+.post:hover {
+    opacity:.7;
+    cursor: pointer;
+    transition:opacity .3s case-in;
+}
+.imageContainer{
+    position:relative;
+    height:200px;
+}
+.image{
+    object-fit:cover;
+    border-radius: 15px;
+}
+.container{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.titre{
+    
+    font-size: 700;
+    text-align: center;
+    
+}
+.title{
+    font-weight: 700;
+}
+.text{
+    font-size:20px;
+    
+}
